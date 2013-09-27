@@ -116,4 +116,8 @@ END
 else
   echo "Drupal is already configured.  Delete settings.php to rerun setup"
 fi
+
+echo "CLIENT_MESSAGE: Hi I'm a client message from a deploy hook"
+echo "ENV_VAR_ADD:DRUPAL_VAR=GOTCHASUCKA"
+
 echo
